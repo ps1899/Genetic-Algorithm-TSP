@@ -18,6 +18,7 @@ origin city?*
 <img width="563" alt="TSP" src="https://github.com/ps1899/Genetic-Algorithm/assets/52563094/36601a03-a8f5-49eb-9027-4e9771cef228">
 
 </br>
+</br>
 
 **Ques:** 
 Does Genetic algorithm helps solving Travelling Salesman Problem (TSP) faster and better?  
