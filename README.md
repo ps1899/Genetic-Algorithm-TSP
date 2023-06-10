@@ -9,6 +9,5 @@ Genetic Algorithm can be explained by the following steps:
   
 Here in this repository, I have demonstrated an end-to-end code of a Genetic Algorithm used to solve the Traveling Salesman Problem (TSP).  
 
-
 TSP can be described as follows:  
 *Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?*
