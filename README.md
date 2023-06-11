@@ -4,7 +4,6 @@ evolution. This algorithm reflects the process of natural selection where the fi
 offspring of the next generation.
 
 </br>
-</br>
 
 Why Genetic Algorithm is used in Computer Science?  
 Genetic algorithms (GAs) are used in computer science for optimization and search problems. They are inspired by the process of natural selection 
@@ -14,7 +13,6 @@ Here are a few reasons why genetic algorithms are used in computer science:
 2. *Parallelization*: Genetic algorithms are inherently parallelizable since they operate on a population of solutions simultaneously. This characteristic allows them to take advantage of parallel computing architectures, such as multi-core processors or distributed systems, to speed up the search process.
 3. *Complex and Nonlinear Problems*: Genetic algorithms can handle complex and nonlinear problems effectively. They are particularly useful when the relationship between input variables and the objective function is not well-defined or exhibits nonlinearity.
 
-</br>
 </br>
 
 Genetic Algorithm can be explained by the following steps:  
