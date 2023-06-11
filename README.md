@@ -5,7 +5,8 @@ offspring of the next generation.
 
 </br>
 
-Why Genetic Algorithm is used in Computer Science?  
+**Why Genetic Algorithm is used in Computer Science?**
+
 Genetic algorithms (GAs) are used in computer science for optimization and search problems. They are inspired by the process of natural selection 
 and evolution in biological systems. GAs provide a heuristic, population-based approach to find near-optimal solutions to complex problems.  
 Here are a few reasons why GAs can be used in computer science:  
@@ -35,7 +36,7 @@ origin city?*
 </br>
 </br>
 
-Does Genetic algorithm helps solving Travelling Salesman Problem (TSP) faster and better?  
+**Does Genetic algorithm helps solving Travelling Salesman Problem (TSP) faster and better?** 
 
 The Genetic Algorithm (GA) is one of the approaches used to solve the traveling salesman problem (TSP), but its effectiveness in terms of speed 
 depends on various factors such as the choice of genetic operators, population size, selection strategy, mutation rate, and termination criteria. By 
