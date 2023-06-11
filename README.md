@@ -38,11 +38,11 @@ origin city?*
 
 **Does Genetic algorithm helps solving Travelling Salesman Problem (TSP) faster and better?** 
 
-The Genetic Algorithm (GA) is one of the approaches used to solve the traveling salesman problem (TSP), but its effectiveness in terms of speed 
+-The Genetic Algorithm (GA) is one of the approaches used to solve the traveling salesman problem (TSP), but its effectiveness in terms of speed 
 depends on various factors such as the choice of genetic operators, population size, selection strategy, mutation rate, and termination criteria. By 
 fine-tuning these parameters and employing effective heuristics, GAs can find high-quality solutions faster compared to exhaustive search methods 
 for large TSP instances.
 
-Compared to exact algorithms like dynamic programming or branch and bound, which guarantee finding the optimal solution, GAs are generally not guaranteed to find the globally optimal solution. However, GAs are known for their ability to find good approximate solutions efficiently, especially for large-scale TSP instances where finding the optimal solution is computationally infeasible.
+-Compared to exact algorithms like dynamic programming or branch and bound, which guarantee finding the optimal solution, GAs are generally not guaranteed to find the globally optimal solution. However, GAs are known for their ability to find good approximate solutions efficiently, especially for large-scale TSP instances where finding the optimal solution is computationally infeasible.
 
-The advantage of GAs lies in their ability to explore a large search space efficiently by maintaining a diverse population and using evolutionary operators such as selection, crossover, and mutation. GAs can converge towards good solutions by iteratively improving the population over generations.
+-The advantage of GAs lies in their ability to explore a large search space efficiently by maintaining a diverse population and using evolutionary operators such as selection, crossover, and mutation. GAs can converge towards good solutions by iteratively improving the population over generations.
