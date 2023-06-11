@@ -8,10 +8,10 @@ offspring of the next generation.
 Why Genetic Algorithm is used in Computer Science?  
 Genetic algorithms (GAs) are used in computer science for optimization and search problems. They are inspired by the process of natural selection 
 and evolution in biological systems. GAs provide a heuristic, population-based approach to find near-optimal solutions to complex problems.  
-Here are a few reasons why genetic algorithms are used in computer science:  
-1. *Optimization*: Genetic algorithms excel at solving optimization problems where the goal is to find the best solution among a large search space. They can handle both single-objective and multi-objective optimization problems efficiently.
-2. *Parallelization*: Genetic algorithms are inherently parallelizable since they operate on a population of solutions simultaneously. This characteristic allows them to take advantage of parallel computing architectures, such as multi-core processors or distributed systems, to speed up the search process.
-3. *Complex and Nonlinear Problems*: Genetic algorithms can handle complex and nonlinear problems effectively. They are particularly useful when the relationship between input variables and the objective function is not well-defined or exhibits nonlinearity.
+Here are a few reasons why GAs can be used in computer science:  
+1. *Optimization*: GAs excel at solving optimization problems where the goal is to find the best solution among a large search space. They can handle both single-objective and multi-objective optimization problems efficiently.
+2. *Parallelization*: GAs are inherently parallelizable since they operate on a population of solutions simultaneously. This characteristic allows them to take advantage of parallel computing architectures, such as multi-core processors or distributed systems, to speed up the search process.
+3. *Complex and Nonlinear Problems*: GAs can handle complex and nonlinear problems effectively. They are particularly useful when the relationship between input variables and the objective function is not well-defined or exhibits nonlinearity.
 
 </br>
 
@@ -35,10 +35,8 @@ origin city?*
 </br>
 </br>
 
-**Ques:** 
 Does Genetic algorithm helps solving Travelling Salesman Problem (TSP) faster and better?  
 
-**Ans:**
 The Genetic Algorithm (GA) is one of the approaches used to solve the traveling salesman problem (TSP), but its effectiveness in terms of speed 
 depends on various factors such as the choice of genetic operators, population size, selection strategy, mutation rate, and termination criteria. By 
 fine-tuning these parameters and employing effective heuristics, GAs can find high-quality solutions faster compared to exhaustive search methods 
