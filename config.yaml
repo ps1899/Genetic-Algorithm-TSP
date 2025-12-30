@@ -1,0 +1,48 @@
+# Genetic Algorithm Configuration for TSP
+
+# Problem Configuration
+problem:
+  num_cities: 40
+  max_coordinate: 100
+  random_seed: 42  # Set to null for random seed
+
+# Algorithm Parameters
+algorithm:
+  population_size: 250
+  elite_size: 20
+  generations: 500
+  
+  # Adaptive Mutation Rate
+  mutation_rate_initial: 0.02  # Starting mutation rate
+  mutation_rate_final: 0.005   # Ending mutation rate
+  mutation_decay: "linear"     # Options: linear, exponential
+  
+  # Early Stopping
+  early_stopping_enabled: true
+  patience: 50  # Stop if no improvement for this many generations
+  min_improvement: 0.01  # Minimum improvement threshold (%)
+
+# Performance Settings
+performance:
+  use_parallel: true
+  num_processes: null  # null = use all available CPU cores
+  
+# Logging Settings
+logging:
+  verbose: true
+  log_interval: 50  # Print stats every N generations
+  detailed_stats: true  # Include best/worst/avg/std dev
+  
+# Visualization Settings
+visualization:
+  save_plots: true
+  plot_format: "png"  # Options: png, pdf, svg
+  output_dir: "results"
+  show_plots: false  # Set to true to display plots interactively
+  
+# Output Settings
+output:
+  save_results: true
+  results_file: "results/ga_results.json"
+  save_best_route: true
+  route_file: "results/best_route.json"
