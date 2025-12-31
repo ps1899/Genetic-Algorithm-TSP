@@ -17,6 +17,60 @@ A [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) is a sear
 - **Comprehensive Visualization**: Multiple plots with progress tracking and route visualization
 - **Modular Architecture**: Clean separation of concerns with dedicated modules for each component
 
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              Main Process (main.py)                         │
+│  ┌──────────────┐         ┌─────────────────────┐                           │
+│  │  CLI Parser  │────────▶│    Config Loader    │                           │
+│  │    & Args    │         │     (utils.py)      │                           │
+│  └──────────────┘         └─────────────────────┘                           │
+│                                      │                                      │
+│                                      ▼                                      │
+│                           ┌──────────────────────┐                          │
+│                           │    City Generation   │                          │
+│                           │      (city.py)       │                          │
+│                           └──────────────────────┘                          │
+│                                      │                                      │
+│                                      ▼                                      │
+│                    ┌─────────────────────────────────────┐                  │
+│                    │        Genetic Algorithm Core       │                  │
+│                    │        (genetic_algorithm.py)       │                  │
+│                    └─────────────────────────────────────┘                  │
+│                                      │                                      │
+│              ┌───────────────────────┼───────────────────────┐              │
+│              ▼                       ▼                       ▼              │
+│    ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐       │
+│    │   Population     │   │ Genetic Operators│   │  Visualization   │       │
+│    │   Management     │   │  - Crossover     │   │  - Progress Plot │       │
+│    │  - Initialize    │   │  - Mutation      │   │  - Route Plot    │       │
+│    │  - Selection     │   │  - Elitism       │   │  - Combined View │       │
+│    │  (population.py) │   │(genetic_operators│   │(visualization.py)│       │
+│    └──────────────────┘   │       .py)       │   └──────────────────┘       │
+│              │            └──────────────────┘                              │
+│              │                       │                                      │
+│              └───────────┬───────────┘                                      │
+│                          ▼                                                  │
+│              ┌────────────────────────────┐                                 │
+│              │     Fitness Evaluation     │                                 │
+│              │       (fitness.py)         │                                 │
+│              │     Parallel Processing    │                                 │
+│              └────────────────────────────┘                                 │
+│                          │                                                  │
+│        ┌─────────────────┼─────────────────┐                                │
+│        ▼                 ▼                 ▼                                │
+│   ┌──────────┐      ┌──────────┐      ┌──────────┐                          │
+│   │ CPU Core │      │ CPU Core │      │ CPU Core │                          │
+│   │    1     │      │    2     │      │    N     │                          │
+│   │ Fitness  │      │ Fitness  │      │ Fitness  │                          │
+│   │  Calc    │      │  Calc    │      │  Calc    │                          │
+│   └──────────┘      └──────────┘      └──────────┘                          │
+│                                                                             │
+│   Evolutionary Cycle: Initialize → Evaluate → Select → Crossover → Mutate   │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Why Genetic Algorithm for TSP?
 
 **Genetic algorithms (GAs)** are used in computer science for optimization and search problems. They are inspired by the process of natural selection and evolution in biological systems. GAs provide a heuristic, population-based approach to find near-optimal solutions to complex problems.
