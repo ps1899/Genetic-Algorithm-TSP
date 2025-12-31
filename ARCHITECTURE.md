@@ -446,38 +446,6 @@ ranked = [(42, 0.0234), (17, 0.0198), ...]  # (index, fitness)
 - **Parallel Fitness**: Evaluates entire population at once
 - **Reduces Overhead**: Single Pool creation per generation
 
-## Future Enhancements
-
-1. **Advanced Crossover Operators**
-   - Edge Recombination Crossover (ERX)
-   - Cycle Crossover (CX)
-   - Partially Mapped Crossover (PMX)
-
-2. **Local Search Integration**
-   - 2-opt improvement
-   - 3-opt improvement
-   - Lin-Kernighan heuristic
-
-3. **Hybrid Approaches**
-   - Memetic algorithms (GA + local search)
-   - Island model (multiple populations)
-   - Adaptive operator selection
-
-4. **GPU Acceleration**
-   - CUDA-based fitness evaluation
-   - Parallel crossover/mutation
-   - Massive population sizes
-
-5. **Advanced Visualization**
-   - Real-time animation
-   - Interactive parameter tuning
-   - 3D route visualization for large instances
-
-6. **Benchmarking Suite**
-   - TSPLIB integration
-   - Automated performance comparison
-   - Statistical significance testing
-
 ## References
 
 - **Genetic Algorithms**: Goldberg, D.E. (1989). "Genetic Algorithms in Search, Optimization, and Machine Learning"
